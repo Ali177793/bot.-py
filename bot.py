@@ -113,5 +113,4 @@ def buttons(call):
         bot.delete_message(call.message.chat.id, call.message.message_id)
 
 print("البوت شغال...")
-bot.send_message(ADMIN_ID, '✅ البوت اشتغل على Railway')
 bot.infinity_polling()
